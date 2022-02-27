@@ -28,8 +28,8 @@ console.log(kabutes1e);
 const kabutes2e = 'Viengubos (\') ir dvigubos (") kabutes.';
 console.log(kabutes2e);
 
-// Tekste backslash \ yra jega!
-const backslash = 'Tekste backslash \\ yra jega!'
+// Tekste backslash \' yra jega!
+const backslash = 'Tekste backslash \\\' yra jega!'
 console.log(backslash);
 
 const vardas = 'Vardenis';
@@ -56,9 +56,19 @@ const HTML = '<header>\n\
                     <a href="#">Link</a>\n\
                 </nav>\n\
             </header>';
-
 console.log(HTML);
 
+const HTML0 '<header>' +
+                '<img>' +
+                '<nav>' +
+                  '<a></a>' +
+                  '<a></a>' +
+                  '<a></a>' +
+                  '<a></a>' +
+                '</nav>' +
+            '</header>'
+console.log(HTML0);   
+                
 const HTMLbacktick = `<header>
 <img src="${imgSrc}" alt="logo" class="logo">
 <nav>
