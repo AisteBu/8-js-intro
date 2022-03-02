@@ -58,17 +58,7 @@ const HTML = '<header>\n\
             </header>';
 console.log(HTML);
 
-const HTML0 '<header>' +
-                '<img>' +
-                '<nav>' +
-                  '<a></a>' +
-                  '<a></a>' +
-                  '<a></a>' +
-                  '<a></a>' +
-                '</nav>' +
-            '</header>'
-console.log(HTML0);   
-                
+               
 const HTMLbacktick = `<header>
 <img src="${imgSrc}" alt="logo" class="logo">
 <nav>
@@ -79,3 +69,7 @@ const HTMLbacktick = `<header>
 </nav>
 </header>`;
 console.log(HTMLbacktick);
+
+const hi = 'Good morning!';
+const hiSize = hi.length;
+console.log(hi, hiSize);
