@@ -28,3 +28,15 @@ if (4 < 2) {
     s3 = 'daugiau';
 }
 console.log(s3);
+
+console.log('-------------');
+
+/*
+Nestintas ternary
+*/
+
+const color = 'blue';
+const light = false;
+
+const x1 = color === 'blue' ? (light ? 'Sviesiai melyna' : 'Tamsiai melyna') : (color === 'red' ? 'Raudona' : 'Nezinoma spalva');
+console.log(x1);
