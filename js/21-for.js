@@ -34,3 +34,17 @@ for (let i=0; i < marks.length; i++) {
 console.log(marks[i]);
 }
 
+
+console.log('------------------');
+/*
+Turime sarasa (array) ir reikia isspausdinti sumas
+*/
+
+const marks1 = [10, 2, 8, 4, 6, 9, 1, 7, 3, 5];
+let marks1Suma = 0;
+
+for (let i=0; i < marks1.length; i++) {
+marks1Suma += marks1[i];
+console.log(marks1Suma);
+}
+

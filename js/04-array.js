@@ -21,7 +21,7 @@ console.log('pirmas:', firstMark);
 console.log('antras:', secondMark);
 console.log('paskutinis:', last);
 
-const dictonary = ['labas', 'rytas', 'sakau', 'tau', '*'];
+const dictonary = ['labas', 'rytas', 'sakau', 'tau'];
 const paskutinisZodis = dictonary[dictonary.length - 1];
 console.log(paskutinisZodis);
 

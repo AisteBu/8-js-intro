@@ -47,7 +47,7 @@ if (akys1 === 'melynos') {
 console.log('---------------------');
 
 const parosMetas = 'vakaras';
-const arLyja = true;
+const arLyja = false;
 
 if (parosMetas === 'rytas') {
     if (arLyja) {
@@ -66,6 +66,8 @@ if (parosMetas === 'rytas') {
         if (parosMetas === 'vakaras') {
             if (arLyja) {
                 console.log('Labas vakaras, nepamirsk skecio!');
+            } else {
+                console.log('Labas vakaras!'); 
             }
          } else {
                 console.log('Neatpazintas paros metas'); 
