@@ -9,7 +9,7 @@ UZDUOTIS:
 
 function milk(uzsakymai, porcija, pienoIsKarves) {
     //validation
-    if (typeof uzsakymai == 'undefined') {
+    if (typeof uzsakymai === 'undefined') {
         return 'ERROR: neduotas pirmas parametras';
     }
     if (typeof uzsakymai !== 'number') {
@@ -21,12 +21,12 @@ function milk(uzsakymai, porcija, pienoIsKarves) {
     if (uzsakymai < 0) {
         return 'ERROR: pirmas parametras negali buti neigiamas';
     }
-    if (uzsakymai % 1 !==0) {
+    if (uzsakymai % 1 !== 0) {
         return 'ERROR: pirmas parametras turi buti sveikasis skaicius';
     }
 
 
-    if (typeof porcija == 'undefined') {
+    if (typeof porcija === 'undefined') {
         return 'ERROR: neduotas antras parametras';
     }
     if (typeof porcija !== 'number') {
@@ -41,7 +41,7 @@ function milk(uzsakymai, porcija, pienoIsKarves) {
 
 
 
-    if (typeof pienoIsKarves == 'undefined') {
+    if (typeof pienoIsKarves === 'undefined') {
         return 'ERROR: neduotas trecias parametras';
     }
     if (typeof pienoIsKarves !== 'number') {
