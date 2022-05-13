@@ -5,7 +5,7 @@ function pozityvas(list) {
         if (item >= 0) {
         teigiamiSkaiciai.push(item);
     }
-}
+}   
 
 return teigiamiSkaiciai;
 }
